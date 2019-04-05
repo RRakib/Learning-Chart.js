@@ -1,0 +1,14 @@
+{
+  "name": "chart",
+  "version": "1.0.0",
+  "description": "Learning how to create chart with ChartJS and HTML5 Canvas",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ChartJS"
+  ],
+  "author": "Rakib Uddin",
+  "license": "MIT"
+}
