@@ -1,12 +1,15 @@
 body{
     margin: 0;
     padding:0;
-    background: url("./Rectangle\ 2.png") no-repeat;
-    background-size: cover;
+    height: 100vh;
+    color: #444;
+    background: #fff;
+    text-align: center;
+    font-family: Montserrat;
 }
 .container{
-    width: 90%;
-    margin: auto;
+    width: 75%;
+    margin: 55px auto;
 }
 .container .chart{
     width: 80%;
