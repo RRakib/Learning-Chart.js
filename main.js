@@ -39,3 +39,20 @@ let pieChart = new Chart(myChart2, {
     options : {}
 })
 
+// line Chart
+let lineChart = new Chart(myChart3, {
+    type : "line", // Bar, horizontalbar , pie , line , doughnut , radar , polarArea
+    data : {
+        labels : ["Nayan" , "Aulad" , "Imran" , "Rakib" , "Niloy" , "Nahida"],
+        datasets:[{
+            label : "CGPA",
+            borderWidth: 2,
+            color: "#E2E2E2",
+            borderColor: "gray",
+            data : [4 , 3.9 , 3.8 , 3.4 , 3.39 , 3.6],
+            backgroundColor: ["#ffeb3b" , "lightgreen", "#9cb8c5", "#53b4e0", "#ea729a" , "#d3dd70"],
+        }],
+    },
+    options : {}
+})
+
