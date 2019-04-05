@@ -3,15 +3,18 @@ body{
     padding:0;
     height: 100vh;
     color: #444;
-    background: #fff;
     text-align: center;
+    background: #f8f8f8;
     font-family: Montserrat;
 }
 .container{
     width: 75%;
-    margin: 55px auto;
+    margin: auto;
 }
 .container .chart{
     width: 80%;
     margin: 0 auto;
+}
+.container .chart canvas{
+    margin: 5% 0;
 }
